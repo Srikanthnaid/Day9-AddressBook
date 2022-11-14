@@ -1,4 +1,3 @@
-
 public class ContactDetails {
 	// variables
 	protected String firstName;
@@ -92,4 +91,10 @@ public class ContactDetails {
 		this.emailId = emailId;
 	}
 
+	@Override
+	public String toString() {
+		return "ContactDetails{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", address='"
+				+ address + '\'' + ", city='" + city + '\'' + ", state='" + state + '\'' + ", zipCode=" + zipCode
+				+ ", mobileNo=" + mobileNumber + ", emailId='" + emailId + '\'' + '}';
+	}
 }
